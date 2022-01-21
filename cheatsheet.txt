@@ -1,0 +1,22 @@
+touch .gitignore	#to create file which contains file that can be ignored while uploading  to the github
+
+git config --global user.name "Jay Patel"
+
+git config --global user.email "jay734883@gmail.com"
+
+git init 		#that create .git folder that initializes the github repository
+
+git add .		#to move all files to the staging area
+
+git commit -m "initial commit"	#to create a first commit
+
+git status		#just to see status of all fiels 
+
+
+ssh-keygen -t rsa -b 4096 -C "jay734883@gmail.com"	#to generate SSH key for git hub to give access to computer to upload files on github repository
+
+cat <path of /id_rsa.pub>	#copy that appeared content and paste it in the github ssh key
+
+git remote add origin <ssh url.git>
+
+git push origin master		#to push all files on github account
