@@ -20,3 +20,19 @@ cat <path of /id_rsa.pub>	#copy that appeared content and paste it in the github
 git remote add origin <ssh url.git>
 
 git push origin master		#to push all files on github account
+
+
+
+
+---------------------to update files-------------------------
+
+
+touch chatsheet.txt
+
+git status	#jsut to see
+
+git add .
+
+git commit -m "added few more fieles <names of files>"
+
+git push origin master
