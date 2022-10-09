@@ -1,3 +1,7 @@
+#for PRIVATE repository
+
+
+
 touch .gitignore	#to create file which contains file that can be ignored while uploading  to the github
 
 git config --global user.name "Jay Patel"
