@@ -1,3 +1,4 @@
 file.txt
 ignorefolder/
-./*.txt
+*.txt
+cheatsheet.txt
